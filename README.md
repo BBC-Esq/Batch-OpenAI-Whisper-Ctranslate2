@@ -65,7 +65,7 @@ pip install PySide6
 ```
 python whisper_batch_whisperx.py
 ```
-> This will bring up the GUi and you should be able to figure it out from here.  The Whisper program should download any model you select to the default "cache" directory on your computer.
+> This will bring up the GUI and you should be able to figure it out from here.  The Whisper program should download any model you select to the default "cache" directory on your computer.
 
 </details>
 
