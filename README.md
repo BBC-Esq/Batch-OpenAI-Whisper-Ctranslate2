@@ -41,7 +41,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 ### Step 6 - Install WhisperX
 ```
-pip install git+https://github.com/openai/whisper.git 
+pip install git+https://github.com/m-bain/whisperx.git
 ```
 
 ### Step 7 - Install PySide6
