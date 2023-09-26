@@ -74,5 +74,5 @@ python whisper_batch_whisperx.py
 All suggestions (positive and negative) are welcome.  "bbc@chintellalaw.com" or feel free to create an "issue" on Github or go to the "discussions" portion of this github.
 
 <div align="center">
-  <img src="https://github.com/BBC-Esq/Batch-Process-OpenAI-Whisper/blob/main/example.png?raw=true" alt="Example Image">
+  <img src="https://github.com/BBC-Esq/Batch-OpenAI-Whisper-Ctranslate2/blob/main/example.png?raw=true" alt="Example Image">
 </div>
