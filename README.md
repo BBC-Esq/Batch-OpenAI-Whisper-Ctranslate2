@@ -9,7 +9,7 @@ Simple program to transcribe/translate multiple audio with Opena AI's Whisper so
 
 > I recommend at least [Python 3.10+](https://www.python.org/downloads/release/python-31011/).
 <details>
-  <Summary>Instructions</Summary>
+  <Summary>INSTRUCTIONS</Summary>
 
 ### Step 1 - Install CUDA
 Go [HERE](https://developer.nvidia.com/cuda-toolkit-archive) and select the version of CUDA that you want to install.
@@ -53,7 +53,7 @@ pip install PySide6
 
 # Usage
 <details>
-  <summary>Instructions</summary>
+  <summary>INSTRUCTIONS</summary>
   
 ### Step 1 - Virtual Environment
 > Open a command prompt in the folder you saved my files to and once again create a virtual environment.
