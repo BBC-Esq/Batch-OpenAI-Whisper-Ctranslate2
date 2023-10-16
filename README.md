@@ -12,32 +12,33 @@ Simple program to transcribe/translate multiple audio with Opena AI's Whisper so
   <Summary>🔥INSTRUCTIONS🔥</Summary>
 
 ### Step 1 - Install CUDA
-Go [HERE](https://developer.nvidia.com/cuda-toolkit-archive) and select the version of CUDA that you want to install.
-> I highly recommend 11.8.0 since it's compatible with the most recent stable version of PyTorch.
+Go [HERE](https://developer.nvidia.com/cuda-toolkit-archive) and install CUDA 11.8.
 
 ### Step 2 - Obtain Repository
-Download all the files of my repository to a folder of your choosing.
+Download all the files and open the folder containing the ```.py``` file.
 
 ### Step 3 - Virtual Environment
-* Open the folder containing my repository files.  Create a command prompt and create a virtual environment with this command:
+Within that folder create a command prompt and then create a virtual environment:
 ```
 python -m venv .
 ```
-* Then "activate" the virtual environment:
+Activate the virtual environment:
 ```
 .\Scripts\activate
 ```
+> On Linux run ```source bin/activate```
+
 ### Step 4 - Upgrade pip
 ```
 python -m pip install --upgrade pip
 ```
 
 ### Step 5 - Install PyTorch
-* Nvidia GPUs:
+Nvidia GPUs:
 ```
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
-> If you did not install CUDA 11.8, you must go [HERE](https://pytorch.org/get-started/locally/) to determine the correct command.  Also, remember to change "pip3" to pip since we're working in the virtual environment.
+> If you're not using an Nvidia GPU go [HERE](https://pytorch.org/get-started/locally/) to determine the correct command.
 
 ### Step 6 - Install WhisperX
 ```
@@ -60,6 +61,7 @@ pip install PySide6
 ```
 .\Scripts\activate
 ```
+> On Linux run ```source bin/activate```
 
 ### Step 2 - Run the Main Script
 ```
